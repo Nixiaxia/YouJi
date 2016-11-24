@@ -1,0 +1,96 @@
+PODS:
+  - Alamofire (3.5.1)
+  - BaiduMapKit (3.0.0)
+  - BetterSegmentedControl (0.4)
+  - DACircularProgress (2.3.1)
+  - FDFullscreenPopGesture (1.1)
+  - IDMPhotoBrowser (1.9.1):
+    - DACircularProgress
+    - pop
+    - SDWebImage
+  - IQKeyboardManager (3.3.7)
+  - JKCategories (1.4)
+  - Masonry (1.0.2)
+  - MBProgressHUD (0.9.2)
+  - MJRefresh (3.1.12)
+  - MOBFoundation (2.0.11)
+  - pop (1.0.9)
+  - ReactiveCocoa (4.2.2):
+    - Result (~> 2.0)
+  - Result (2.1.3)
+  - SDCycleScrollView (1.65):
+    - SDWebImage (~> 3.7)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SMSSDK (2.0.7)
+  - SnapKit (0.22.0)
+  - swiftScan (1.0.8)
+  - UzysAssetsPickerController (0.9.9)
+  - WPAttributedMarkup (1.0.0)
+  - YYCache (1.0.4)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYModel (1.0.4)
+  - YYWebImage (1.0.5):
+    - YYCache
+    - YYImage
+  - ZFPlayer (1.2.2):
+    - Masonry
+
+DEPENDENCIES:
+  - Alamofire (~> 3.0)
+  - BaiduMapKit
+  - BetterSegmentedControl (= 0.4)
+  - FDFullscreenPopGesture
+  - IDMPhotoBrowser
+  - IQKeyboardManager (~> 3.0)
+  - JKCategories
+  - MBProgressHUD (~> 0.9.1)
+  - MJRefresh
+  - MOBFoundation
+  - ReactiveCocoa (~> 4.0)
+  - SDCycleScrollView
+  - SMSSDK
+  - SnapKit (= 0.22.0)
+  - swiftScan
+  - UzysAssetsPickerController
+  - WPAttributedMarkup
+  - YYImage
+  - YYModel
+  - YYWebImage
+  - ZFPlayer
+
+SPEC CHECKSUMS:
+  Alamofire: 0dfba1184a543e2aa160f4e39cac4e8aba48d223
+  BaiduMapKit: de2a726d5296d6b2dc0e974b683af73153608dcd
+  BetterSegmentedControl: 982368e9cae749f28b7a2e969a37dcb73c375400
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  IDMPhotoBrowser: 35e8ba559a88f2a8be4ae04d7fd424665344ba06
+  IQKeyboardManager: 249c3946acf61345c18b038eb50863fe2793e3a8
+  JKCategories: 7575c5e39a54e664c44969ee2fab36d75a9c1d17
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  MOBFoundation: e213065e65eebd8146ab29d10a8445dc8f385091
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  ReactiveCocoa: 72263e7ac0770c274617ccd345e01049d0ca38ae
+  Result: 18e1a7597fbcca5923c565b40a25a98afafdee02
+  SDCycleScrollView: f72904c77698a7f93a41bcbbc2d78b073bf7326c
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SMSSDK: 59f61c413de1ef7482bd16d47406697bedad1715
+  SnapKit: 0dd2fd157330f1ea11fd84da13e6be8a7a22bae0
+  swiftScan: 2dc76303bc7c2dcb7bde9c539f9bd6a7520abc8e
+  UzysAssetsPickerController: 47c27bd96955467925f3d4d80b1e2e8aaeff766d
+  WPAttributedMarkup: eb50878af4ec647d8d2090f721a5cfe7d29c27fe
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+  YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
+  ZFPlayer: 6bad7340a51e0067d806e28985bea9f46433f91a
+
+PODFILE CHECKSUM: 4a2861c0665d1a728ba04b10551c6deb93977af7
+
+COCOAPODS: 1.1.1

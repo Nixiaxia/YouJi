@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="16B2659" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TestViewController_1" customModule="YouJi" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="抱歉，功能尚未开放～" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dyo-Mo-8sY">
+                    <rect key="frame" x="8" y="357" width="398" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="tr1-RJ-GMK"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.78739005327224731" green="0.81638044118881226" blue="0.83325272798538208" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IconOhNo_ipad" translatesAutoresizingMaskIntoConstraints="NO" id="xdx-vH-9yp">
+                    <rect key="frame" x="177" y="289" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="m9v-z1-Mwe"/>
+                        <constraint firstAttribute="height" constant="60" id="p0W-3t-7hW"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="xdx-vH-9yp" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="6n7-HR-PMJ"/>
+                <constraint firstItem="Dyo-Mo-8sY" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="A4t-aj-g2x"/>
+                <constraint firstItem="Dyo-Mo-8sY" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leadingMargin" id="FsT-eP-GeY"/>
+                <constraint firstItem="Dyo-Mo-8sY" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Ir2-jV-xfQ"/>
+                <constraint firstItem="Dyo-Mo-8sY" firstAttribute="top" secondItem="xdx-vH-9yp" secondAttribute="bottom" constant="8" id="Xot-OS-RRy"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+        </view>
+        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hmm-WR-HXf">
+            <rect key="frame" x="0.0" y="0.0" width="42" height="21"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+            <nil key="highlightedColor"/>
+        </label>
+    </objects>
+    <resources>
+        <image name="IconOhNo_ipad" width="48" height="48"/>
+    </resources>
+</document>
