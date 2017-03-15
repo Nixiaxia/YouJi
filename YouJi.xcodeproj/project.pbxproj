@@ -49,6 +49,9 @@
 		C94C4FA11DE42315005635C8 /* MainTravelViewController_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94C4FA01DE42315005635C8 /* MainTravelViewController_3.swift */; };
 		C94C4FA41DE4248F005635C8 /* SpecialTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94C4FA21DE4248F005635C8 /* SpecialTableViewCell.swift */; };
 		C94C4FA51DE4248F005635C8 /* SpecialTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C94C4FA31DE4248F005635C8 /* SpecialTableViewCell.xib */; };
+		C94FA44A1E78DAE40025A05C /* B8F55A407A13372CFB267BF868674548.png in Resources */ = {isa = PBXBuildFile; fileRef = C94FA4471E78DAE40025A05C /* B8F55A407A13372CFB267BF868674548.png */; };
+		C94FA44B1E78DAE40025A05C /* DC54F5B58A6634F815AC7455F9A2BC02.png in Resources */ = {isa = PBXBuildFile; fileRef = C94FA4481E78DAE40025A05C /* DC54F5B58A6634F815AC7455F9A2BC02.png */; };
+		C94FA44C1E78DAE40025A05C /* 9B67B37249D7E317337D5FA1B9856253.png in Resources */ = {isa = PBXBuildFile; fileRef = C94FA4491E78DAE40025A05C /* 9B67B37249D7E317337D5FA1B9856253.png */; };
 		C9F5697C1DE1463500A70F6F /* TestViewController_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F5697B1DE1463500A70F6F /* TestViewController_2.swift */; };
 		C9F5697E1DE1464800A70F6F /* TestViewController_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F5697D1DE1464800A70F6F /* TestViewController_3.swift */; };
 		C9F569831DE147EC00A70F6F /* TestViewController_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F569811DE147EC00A70F6F /* TestViewController_1.swift */; };
@@ -100,6 +103,9 @@
 		C94C4FA01DE42315005635C8 /* MainTravelViewController_3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTravelViewController_3.swift; sourceTree = "<group>"; };
 		C94C4FA21DE4248F005635C8 /* SpecialTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecialTableViewCell.swift; sourceTree = "<group>"; };
 		C94C4FA31DE4248F005635C8 /* SpecialTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpecialTableViewCell.xib; sourceTree = "<group>"; };
+		C94FA4471E78DAE40025A05C /* B8F55A407A13372CFB267BF868674548.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = B8F55A407A13372CFB267BF868674548.png; sourceTree = "<group>"; };
+		C94FA4481E78DAE40025A05C /* DC54F5B58A6634F815AC7455F9A2BC02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DC54F5B58A6634F815AC7455F9A2BC02.png; sourceTree = "<group>"; };
+		C94FA4491E78DAE40025A05C /* 9B67B37249D7E317337D5FA1B9856253.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9B67B37249D7E317337D5FA1B9856253.png; sourceTree = "<group>"; };
 		C9F5697B1DE1463500A70F6F /* TestViewController_2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController_2.swift; sourceTree = "<group>"; };
 		C9F5697D1DE1464800A70F6F /* TestViewController_3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController_3.swift; sourceTree = "<group>"; };
 		C9F569811DE147EC00A70F6F /* TestViewController_1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController_1.swift; sourceTree = "<group>"; };
@@ -195,6 +201,7 @@
 		BCC3FE321DC0CDBB002DE428 /* YouJi */ = {
 			isa = PBXGroup;
 			children = (
+				C94FA4461E78DAD70025A05C /* Images */,
 				BC8564261DC6D7C400E47B31 /* Model */,
 				BC908F331DC493D400641952 /* View */,
 				BC7B83701DC224320014DED2 /* ChildController */,
@@ -240,6 +247,16 @@
 				BC5105C01DD5F339000D9454 /* ParallaxHeaderView.swift */,
 			);
 			name = Tools;
+			sourceTree = "<group>";
+		};
+		C94FA4461E78DAD70025A05C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C94FA4471E78DAE40025A05C /* B8F55A407A13372CFB267BF868674548.png */,
+				C94FA4481E78DAE40025A05C /* DC54F5B58A6634F815AC7455F9A2BC02.png */,
+				C94FA4491E78DAE40025A05C /* 9B67B37249D7E317337D5FA1B9856253.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 		E4E3457059C5F237766E1092 /* Frameworks */ = {
@@ -317,12 +334,15 @@
 				BCC3FE3E1DC0CDBB002DE428 /* LaunchScreen.storyboard in Resources */,
 				BC6BEB4F1DCAEBA80055E1FA /* TravelGuideViewCell.xib in Resources */,
 				BCC3FE3B1DC0CDBB002DE428 /* Assets.xcassets in Resources */,
+				C94FA44B1E78DAE40025A05C /* DC54F5B58A6634F815AC7455F9A2BC02.png in Resources */,
 				BC6BEB431DCAE62E0055E1FA /* CYOfflineViewController.xib in Resources */,
 				BC908F371DC4944600641952 /* CYTravelsViewCell.xib in Resources */,
 				BC0999441DC9D19900C064CB /* CYToolsetViewController.xib in Resources */,
 				BC6BEB551DCB68B50055E1FA /* HeaderCollectionReusableView.xib in Resources */,
 				C94C4FA51DE4248F005635C8 /* SpecialTableViewCell.xib in Resources */,
 				C9F569841DE147EC00A70F6F /* TestViewController_1.xib in Resources */,
+				C94FA44C1E78DAE40025A05C /* 9B67B37249D7E317337D5FA1B9856253.png in Resources */,
+				C94FA44A1E78DAE40025A05C /* B8F55A407A13372CFB267BF868674548.png in Resources */,
 				BC0999481DC9E42900C064CB /* CYMyViewController.xib in Resources */,
 				BC908F3D1DC4965100641952 /* CYSpecialTopicViewCell.xib in Resources */,
 				BCC3FE391DC0CDBB002DE428 /* Main.storyboard in Resources */,
