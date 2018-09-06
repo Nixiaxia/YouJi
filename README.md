@@ -1,6 +1,7 @@
 ## Welcome to YouJi Pages
 
 You can download my profile [in here](https://github.com/Nixiaxia/YouJi.git)
+官方Api失效，停止维护了
 
 
 ![image](https://github.com/Nixiaxia/YouJi/blob/master/YouJi/9B67B37249D7E317337D5FA1B9856253.png)
